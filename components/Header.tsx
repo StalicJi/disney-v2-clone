@@ -14,15 +14,13 @@ const Header = () => {
           width={120}
           height={199}
           className="curser-pointer invert-0 dark:invert"
+          priority
         />
       </Link>
 
       <div className="flex space-x-2">
-        {/* GenreDropdown */}
         <GenreDropdown />
-        {/* SearchInput */}
         <SearchInput />
-        {/* Theme-toggler */}
         <ThemeToggler />
       </div>
     </header>
